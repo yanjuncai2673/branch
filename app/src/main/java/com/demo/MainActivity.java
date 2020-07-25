@@ -18,11 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public class ListNode{
-        
+
     }
 
 
     public void login_phone(){
         Toast.makeText(this, "手机登录", Toast.LENGTH_SHORT).show();
+    }
+
+    public void bugfix_login(){
+        Toast.makeText(this, "修复手机登录bug", Toast.LENGTH_SHORT).show();
     }
 }
