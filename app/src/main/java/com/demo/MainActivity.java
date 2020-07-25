@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void login_phone_bug(String s){
+        Toast.makeText(this, "手机登录bug"+s, Toast.LENGTH_SHORT).show();
+    }
+
+
     public void login_phone(){
         Toast.makeText(this, "手机登录", Toast.LENGTH_SHORT).show();
     }
