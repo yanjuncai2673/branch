@@ -18,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public class ListNode{
+
         public ListNode(int a){}
+
+        public ListNode(String a){}
+
     }
 
 
